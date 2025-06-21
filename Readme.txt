@@ -6,16 +6,16 @@ This README file provides instructions on how to run our codes, as well as a bri
 - Any required non-standard hardware: None
 
 2. Installation Guide
-- Download the zip file containing the MATLAB scripts and input data files.
-- Extract the contents to a directory on your computer.
+- Download the files containing the MATLAB scripts and input data files.
+- Save the contents to a directory on your computer.
 - Ensure that the directory path is added to the MATLAB path for easy access.
 
 3. Demo
 - Instructions to run on data:
-  1. Open MATLAB and navigate to the directory containing the extracted files.
+  1. Open MATLAB and navigate to the directory containing the downloaded files.
   2. Run the following scripts to perform the respective analyses:
-     - Run ‘Script_GLM_MDneu41.m’ for Generalized Linear Model analysis.
      - Run ‘Script_Behavior_LearningCurve.m’ for behavior performance analysis.
+     - Run ‘Script_GLM_MDneu41.m’ for Generalized Linear Model analysis.     
      - Run ‘Script_DI_OFCexample.m’ for DI analysis. 
   3. Each script will load the corresponding input data file (e.g., ‘Data_DI_OFCexample.mat’ ) and generate plots based on the analysis.
 
@@ -23,7 +23,7 @@ This README file provides instructions on how to run our codes, as well as a bri
   - Each script will produce a figure window displaying the results of the analysis.
 
 - Expected run time for demo on a "normal" desktop computer:
-  - GLM analysis: Approximately 1 minutes
+  - GLM analysis: Approximately 1 minute
 
 4. Instructions for use
 - How to run the software on your data:
